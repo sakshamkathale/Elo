@@ -94,3 +94,26 @@
   padding-bottom: 40px;
   min-height: 1000px;
 }
+/* Add or update in your CSS */
+.gallery-quote {
+  height: 40%;
+  width: 80%;              /* Make the background narrower */
+  font-size: 2.8em;        /* Make the text smaller */
+  padding: 20px 20px !important; /* Less padding for a smaller background */
+  background: #fff;        /* Pure white background */
+  color: #232323;
+  border-radius: 18px;
+  text-align: center;
+  margin-top: 100px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+  z-index: 10;
+  position: absolute;
+  top: 200px;
+  left: 55%;
+  transform: translateX(-50%);
+  font-weight: bold;
+  background: rgba(255,255,255,0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
